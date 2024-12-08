@@ -1,3 +1,4 @@
 .addon_base
 Source
 deno.lock
+construct.d.ts
