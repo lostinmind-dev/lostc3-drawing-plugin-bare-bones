@@ -1,5 +1,5 @@
-import { Category, Action, Condition, Expression, addParam, Param } from '../../deps.ts';
-import type { Instance } from '@Runtime/Instance.ts';
+import { Category, Action, Condition, Expression, addParam, Parameter } from '../../deps.ts';
+import type { Instance } from '@runtime/instance.ts';
 
 @Category('categoyId', 'My Category')
 export default class {

@@ -1,4 +1,4 @@
-import type { Instance } from "@Runtime/Instance.ts";
+import type { Instance } from "@runtime/instance.ts";
 
 class LostDrawingType extends globalThis.ISDKObjectTypeBase<Instance> {
 	constructor() {

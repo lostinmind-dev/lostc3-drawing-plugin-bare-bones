@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "types": [
+            "./types/construct.d.ts",
+            "./types/properties.d.ts"
+        ],
         "lib": [
             "deno.window",
             "dom",
@@ -10,10 +14,12 @@
     "tasks": {
         "dev": "lost build --watch",
         "build": "lost build",
+        "build:minify": "lost build --minify",
         "serve": "lost serve"
     },
     "imports": {
-        "@Runtime/": "./Addon/",
-        "@Editor/": "./Editor/"
+        "@runtime/": "./addon/runtime/",
+        "@editor/": "./addon/editor/",
+        "@modules/": "./addon/modules/"
     }
 }

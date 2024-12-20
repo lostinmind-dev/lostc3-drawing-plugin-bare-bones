@@ -1,8 +1,8 @@
 export {
     defineConfig, defineAddon, Plugin, Behavior, Property,
-    Category, Action, Condition, Expression, addParam, Param
-} from 'jsr:@lost-c3/lib@3.3.4';
+    Category, Action, Condition, Expression, addParam, Parameter
+} from 'jsr:@lost-c3/lib@4.0.3';
 
 export {
     bold, italic, underline, code, strikethrough
-} from 'jsr:@lost-c3/lib@3.3.4/misc';
+} from 'jsr:@lost-c3/lib@4.0.3/misc';

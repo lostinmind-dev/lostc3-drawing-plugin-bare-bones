@@ -1,7 +1,14 @@
 class LostDrawingInstance extends globalThis.ISDKWorldInstanceBase {
 
+	/** Use this for triggering plugin conditions */
+	readonly Conditions = C3.Plugins[Lost.addonId].Cnds;
+
 	constructor() {
 		super();
+		/** 
+		 * Use auto-created declaration file for your plugin properties after build
+		 * @type {PluginProperties}
+		 */
 		const properties = this._getInitProperties() as PluginProperties;
 
 	}
